@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hide & Show Text</title>
+    <link rel="stylesheet" href="active.css">
+</head>
+<body>
+    <div class="project">
+     <h1 id="login">LOGIN-PAGE</h1>
+     <form method="post" action="index.php" class="myForm">
+        <div class="sectionA">
+        <label for="user" id="username">USERNAME :</label>
+        <div class="sectionA1">
+         <input type="text" id="user" minlength="10" maxlength="25" placeholder="enter your username" required>
+         <img src="eye-show.png" id="eyeshow">
+        </div>
+        </div>
+        <div class="sectionB">
+          <label for="password" id="pass">PASSWORD :</label>
+          <div class="sectionB1">
+          <input type="password" id="password" minlength="8" maxlength="12" placeholder="enter your password.123" required>
+          <img src="eye-hide.jpg" id="eyehide">
+        </div>
+        </div>
+        <input type="submit" id="submitBtn">
+     </form>
+    </div>
+   <script src="active.js"></script> 
+</body>
+</html>
+
+    
